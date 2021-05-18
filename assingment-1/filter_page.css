@@ -2,6 +2,14 @@
     font-family: Poppins;
     box-sizing: border-box;
   }
+
+  .box {
+  width: 1366px;
+  height: 973px;
+  padding: 0 0 88px;
+  background-color: #fbfbfb;
+}  
+
   header {
     background-color: #ce0505;
     height: 80px;
@@ -130,16 +138,50 @@
     border-radius: 23px;
   }
   
-  
+  .restorent_name{
+    color: #192f60;
+    position: absolute;
+    margin: 34px 267.4px 5px 41px;
+    font-size: 30px;
+    font-weight: 600;
+  }
+
+  .spot{
+    text-align: left;
+    color: #192f60;
+    margin: 80px 521.4px 5px 46px;
+    position: absolute;
+  }
+
+  .address_line{
+    color: #636f88;
+    position: absolute;
+    margin: 110px 0px 8px 46px;
+    line-height: 1.88;
+  }
 
   .hrline{
     align-self: center;
     width: 91%;
-    border: solid 1px #dedfe5;
-    
+    border: solid 0.1px #dedfe5;
   }
-  
-  
+
+  .CUISINES-COST-FOR-TWO{  
+  font-size: 16px;
+  text-align: left;
+  color: #636f88;
+  line-height: 1.88;
+  margin: 5 10 0 40;
+  display: inline-block;
+}
+ 
+  .Bakery-700 {
+  margin: 15px 154px 34px 45px;
+  line-height: 1.88;
+  color: #192f60;
+  display: inline-block;
+}
+
   @media only screen and (max-width: 576px) {
     .title-text {
       font-size: 25px;
